@@ -1,0 +1,22 @@
+{
+    "compilerOptions": {
+        "target": "ES2020",
+        "useDefineForClassFields": true,
+        "lib": [ "ES2020", "DOM", "DOM.Iterable" ],
+        "module": "ESNext",
+        "moduleResolution": "Bundler",
+        "resolveJsonModule": true,
+        "isolatedModules": true,
+        "noEmit": true,
+        "jsx": "react-jsx",
+        "skipLibCheck": true,
+
+        /* These lines fix the default-import errors for react/react-dom */
+        "esModuleInterop": true,
+        "allowSyntheticDefaultImports": true,
+
+        /* Vite */
+        "types": [ "vite/client" ]
+    },
+    "include": [ "src" ]
+}
