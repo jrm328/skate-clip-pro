@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root{
+  --accent:#ff7fe4;
+  --message:#7fe8fe;
+}
